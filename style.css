@@ -178,8 +178,8 @@ main {
 
 @media (max-width: 576px) {
   main {
-    width: 90%;
-    height: 95%;
+    width: 95%;
+    height: 70%;
   }
 
   .player {
@@ -192,23 +192,47 @@ main {
   }
 
   .name {
-    margin-top: 16rem;
-    font-size: 3rem;
-    margin-bottom: 8rem;
+    margin-top: 8rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
   }
 
   .score {
-    font-size: 10rem;
+    font-size: 7rem;
     font-weight: 300;
     color: var(--main-color);
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .current {
+    background-color: var(--second-color);
+    width: 50%;
+    padding: 1rem;
+  }
+
+  .current-label {
+    margin-bottom: 0.8rem;
+  }
+  
+  .current-score {
+    font-size: 2rem;
+  }
+
+  .btn {
+    top: 1%;
+    font-size: 1.5rem;
+    padding: 0.7rem 1.5rem;
   }
 
   .btn--roll {
-    top: 68rem;
+    top: 35rem;
   }
 
   .btn--hold {
-    top: 75rem;
+    top: 42rem;
+  }
+
+  .dice {
+    height: 5rem;
   }
 }
