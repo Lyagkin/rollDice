@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
+:root {
+  --main-color: #464451;
+  --second-color: #9966CC;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +12,7 @@
 }
 
 html {
-  font-size: 42.5%;
+  font-size: 52.5%;
   box-sizing: border-box;
 }
 
@@ -16,7 +21,7 @@ body {
   font-weight: 400;
   height: 100vh;
   color: #333;
-  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  background-image: linear-gradient(to top left, #9966CC 0%, #464451 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,7 +64,7 @@ main {
 .score {
   font-size: 8rem;
   font-weight: 300;
-  color: #c7365f;
+  color: var(--main-color);
   margin-bottom: auto;
 }
 
@@ -78,7 +83,7 @@ main {
 }
 
 .current {
-  background-color: #c7365f;
+  background-color: var(--second-color);
   opacity: 0.8;
   border-radius: 9px;
   color: #fff;
@@ -164,7 +169,7 @@ main {
 
 .player--winner .name {
   font-weight: 700;
-  color: #c7365f;
+  color: var(--second-color);
 }
 
 .show {
@@ -195,7 +200,7 @@ main {
   .score {
     font-size: 10rem;
     font-weight: 300;
-    color: #c7365f;
+    color: var(--main-color);
     margin-bottom: 4rem;
   }
 
